@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "babel-plugin-root-import", {
+        rootPathSuffix: 'app' 
+      }
+    ],
+    "inline-react-svg",
+    [
+      "inline-import", {
+        "extensions": [".css"]
+      }
+    ],
+  ],
+  "env": {
+    "development": {
+      "plugins": ["inline-dotenv"]
+    },
+  },
+}
