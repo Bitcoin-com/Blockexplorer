@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="9px" viewBox="0 0 11 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Transaction" transform="translate(-797.000000, -173.000000)" fill="#5C6551">
+            <path d="M807.625,174.425 L801.025,181.025 C800.825,181.125 800.625,181.125 800.425,181.125 C800.225,181.125 800.025,181.025 799.925,180.925 L797.225,178.225 C796.925,177.925 796.925,177.425 797.225,177.125 C797.525,176.825 798.025,176.825 798.325,177.125 L800.425,179.225 L806.425,173.225 C806.725,172.925 807.225,172.925 807.525,173.225 C807.925,173.625 807.925,174.125 807.625,174.425 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

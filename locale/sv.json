@@ -1,0 +1,66 @@
+{
+  "core": {
+    "showAdvanced": "Visa avancerad",
+    "summary": "Sammanfattning",
+    "confirmations": "Bekräftelser",
+    "copied": "kopierad",
+    "noResultsFound": "Inga resultat hittades",
+    "viewDetails": "Visa detaljer"
+  },
+  "header": {
+    "chain": "Kedja",
+    "displayCurrency": "Valuta",
+    "language": "Språk"
+  },
+  "index": {
+    "searchDescription": "Sök efter en address, en transaktion eller en block hash",
+    "preferChain": "Föredrar du %{chain}?",
+    "switchChains": "Byt kedja",
+    "latestBlocks": "Senaste blocken"
+  },
+  "address": {
+    "address": "Address",
+    "balance": "Saldo",
+    "totalReceived": "Totalt intag"
+  },
+  "block": {
+    "title": "Block #%{height}",
+    "prevBlock": "Föregående block",
+    "nextBlock": "Nästa block",
+    "height": "Höjd",
+    "hash": "Hash",
+    "merkleRoot": "Merkle root",
+    "chainwork": "Chainwork",
+    "age": "Ålder",
+    "difficulty": "Svårighetsgrad",
+    "bits": "bits",
+    "size": "Storlek",
+    "nonce": "nonce",
+    "blockReward": "Blockbelöning"
+  },
+  "tx": {
+    "transactions": "Transaktioner",
+    "transactions_1": "Transaktion",
+    "confirmations": "bekräftelser",
+    "confirmations_1": "bekräftelse",
+    "confirmed": "Bekräftad",
+    "size": "Storlek",
+    "unixTimestamp": "Unix tidsstämpel",
+    "includedInBlock": "Inkluderad i block",
+    "inputsOutputs": "Ingående & utgående",
+    "totalInput": "Totalt ingående",
+    "totalOutput": "Totalt utgående",
+    "fees": "Avgifter",
+    "noInput": "Ingen input",
+    "newlyMinedCoins": "Mineade coins"
+  },
+  "error": {
+    "blockNotFound": "Vi kunde inte hitta det här blocket!",
+    "addressNotFound": "Vi kunde inte hitta den här addressen!",
+    "txNotFound": "Vi kunde inte hitta den här transaktionen",
+    "youCanTry": "Du kan prova att",
+    "switchChains": "byta kedja",
+    "or": "eller",
+    "goBackHome": "gå tillbaka hem"
+  }
+}

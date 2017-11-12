@@ -1,0 +1,50 @@
+{
+  "name": "blockexplorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node_modules/.bin/next build",
+    "start": "NODE_ENV=production BTC_API_URL=http://194.14.246.74:3001/api BCC_API_URL=http://194.14.246.77:3001/insight-api node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decimal.js": "7.2.4",
+    "dotenv": "4.0.0",
+    "es6-promise": "4.1.1",
+    "express": "4.15.4",
+    "http-proxy-middleware": "0.17.4",
+    "isomorphic-fetch": "2.2.1",
+    "js-cookie": "2.1.4",
+    "next": "3.2.1",
+    "next-cookies": "1.0.2",
+    "next-redux-wrapper": "1.3.4",
+    "nprogress": "0.2.0",
+    "qrcode.react": "0.7.1",
+    "react": "15.6.1",
+    "react-animate-height": "0.10.2",
+    "react-click-outside": "github:tj/react-click-outside",
+    "react-copy-to-clipboard": "5.0.0",
+    "react-dom": "15.6.1",
+    "react-infinite-scroller": "1.0.15",
+    "react-intl": "2.4.0",
+    "react-moment": "0.6.5",
+    "react-redux": "5.0.6",
+    "react-redux-i18n": "1.9.0",
+    "react-toggle": "4.0.1",
+    "react-tooltip": "3.3.0",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0",
+    "sweetalert": "2.0.2",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-dotenv": "1.1.1",
+    "babel-plugin-inline-import": "2.0.6",
+    "babel-plugin-inline-react-svg": "0.4.0",
+    "babel-plugin-root-import": "5.1.0",
+    "babel-plugin-transform-inline-environment-variables": "0.2.0"
+  }
+}

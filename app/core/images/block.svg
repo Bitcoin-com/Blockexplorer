@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>block-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.585258152">
+        <g id="Landing" transform="translate(-196.000000, -578.000000)" stroke-width="3" stroke="#23261F">
+            <g id="latest-blocks" transform="translate(0.000000, 528.000000)">
+                <g id="title-+-table" transform="translate(177.000000, 52.000000)">
+                    <g id="title" transform="translate(21.000000, 0.000000)">
+                        <g id="block-icon">
+                            <g id="top">
+                                <polyline id="Shape" points="0.218 10 0.218 0 10.218 0"></polyline>
+                                <polyline id="Shape-Copy" transform="translate(19.000000, 5.000000) scale(-1, 1) translate(-19.000000, -5.000000) " points="14 10 14 0 24 0"></polyline>
+                            </g>
+                            <g id="bottom" transform="translate(12.000000, 19.000000) scale(1, -1) translate(-12.000000, -19.000000) translate(0.000000, 14.000000)">
+                                <polyline id="Shape" points="0.218 10 0.218 0 10.218 0"></polyline>
+                                <polyline id="Shape-Copy" transform="translate(19.000000, 5.000000) scale(-1, 1) translate(-19.000000, -5.000000) " points="14 10 14 0 24 0"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,66 @@
+{
+  "core": {
+    "showAdvanced": "Show advanced",
+    "summary": "Summary",
+    "confirmations": "Confirmations",
+    "copied": "copied",
+    "noResultsFound": "No results found",
+    "viewDetails": "View details"
+  },
+  "header": {
+    "chain": "Chain",
+    "displayCurrency": "Display currency",
+    "language": "Language"
+  },
+  "index": {
+    "searchDescription": "Search for an address, a transaction or a block hash",
+    "preferChain": "Prefer %{chain}?",
+    "switchChains": "Switch chains",
+    "latestBlocks": "Latest blocks"
+  },
+  "address": {
+    "address": "Address",
+    "balance": "Balance",
+    "totalReceived": "Total received"
+  },
+  "block": {
+    "title": "Block #%{height}",
+    "prevBlock": "Previous block",
+    "nextBlock": "Next block",
+    "height": "Height",
+    "hash": "Hash",
+    "merkleRoot": "Merkle root",
+    "chainwork": "Chainwork",
+    "age": "Age",
+    "difficulty": "Difficulty",
+    "bits": "bits",
+    "size": "Size",
+    "nonce": "nonce",
+    "blockReward": "Block reward"
+  },
+  "tx": {
+    "transactions": "Transactions",
+    "transactions_1": "Transaction",
+    "confirmations": "confirmations",
+    "confirmations_1": "confirmation",
+    "confirmed": "Confirmed",
+    "size": "Size",
+    "unixTimestamp": "Unix timestamp",
+    "includedInBlock": "Included in block",
+    "inputsOutputs": "Inputs & Outputs",
+    "totalInput": "Total input",
+    "totalOutput": "Total output",
+    "fees": "Fees",
+    "noInput": "No input",
+    "newlyMinedCoins": "Newly mined coins"
+  },
+  "error": {
+    "blockNotFound": "We couldn't find this block!",
+    "addressNotFound": "We couldn't find this address!",
+    "txNotFound": "We couldn't find this transaction!",
+    "youCanTry": "You can try to",
+    "switchChains": "switch chains",
+    "or": "or",
+    "goBackHome": "go back home"
+  }
+}
