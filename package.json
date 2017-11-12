@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "node_modules/.bin/next build",
-    "start": "NODE_ENV=production BTC_API_URL=http://194.14.246.74:3001/api BCC_API_URL=http://194.14.246.77:3001/insight-api node server.js"
+    "start": "NODE_ENV=production BTC_API_URL=https://insight.bitcoin.com/api BCC_API_URL=https://cashexplorer.bitcoin.com/api node server.js"
   },
   "author": "",
   "license": "ISC",
