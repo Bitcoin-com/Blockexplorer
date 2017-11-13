@@ -1,11 +1,11 @@
-import BCCIcon from '~/core/images/bcc.svg';
+import BCHIcon from '~/core/images/bch.svg';
 import BTCIcon from '~/core/images/btc.svg';
 
 export default [
   {
     name: 'Bitcoin Cash',
-    code: 'bcc',
-    symbol: <BCCIcon />,
+    code: 'bch',
+    symbol: <BCHIcon />,
   },
   {
     name: 'Bitcoin Legacy',

@@ -53,7 +53,7 @@ const Toggle = ({
       }
       .toggle-container :global(.react-toggle--checked:not(.react-toggle--disabled) .react-toggle-track),
       .toggle-container :global(.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track) {
-        background-color: ${getPrimaryColor("bcc")};
+        background-color: ${getPrimaryColor("bch")};
       }
       .toggle-container[data-chain="btc"] :global(.react-toggle--checked:not(.react-toggle--disabled) .react-toggle-track),
       .toggle-container[data-chain="btc"] :global(.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track) {

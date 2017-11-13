@@ -1,11 +1,11 @@
 import { moneyColor } from '~/ui/colors';
-import BCCIcon from '~/core/images/bcc.svg';
+import BCHIcon from '~/core/images/bch.svg';
 
 import Money from '~/core/components/Money';
 
 const AmountBadge = ({ amount, currency, style }) => (
   <div className="amount mono-font" style={style}>
-    <BCCIcon style={{
+    <BCHIcon style={{
       position: 'absolute', 
       marginLeft: -33,
       marginTop: -1,

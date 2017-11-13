@@ -61,7 +61,7 @@ const BigTransaction = ({ tx, style, locale }) => {
         <div className="amount-container">
           <AmountBadge
             amount={valueOut}
-            currency="BCC"
+            currency="BCH"
             style={{
               float: 'right',
             }}

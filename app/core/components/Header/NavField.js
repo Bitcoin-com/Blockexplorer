@@ -181,7 +181,7 @@ export default class NavField extends React.Component {
             }
           }
           .button :global(.caret path) {
-            fill: ${getPrimaryColor("bcc")};
+            fill: ${getPrimaryColor("bch")};
           }
           .button :global(.caret[data-chain="btc"] path) {
             fill: ${getPrimaryColor("btc")};

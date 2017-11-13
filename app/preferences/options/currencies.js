@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Bitcoin Cash',
-    code: 'bcc',
+    code: 'bch',
     symbol: '₿',
   },
   {
@@ -22,7 +22,7 @@ export default [
 ];
 
 export const defaultChainCurrencies = {
-  bcc: 'bcc',
+  bch: 'bch',
   btc: 'btc',
 }
 

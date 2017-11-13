@@ -8,9 +8,9 @@ import { setCurrency } from '~/preferences/actions';
 Decimal.set({ precision: 8, rounding: 8 });
 
 const getValueInBTC = (chain, amount, rates) => {
-  const BCH_TO_BTC_RATE = rates.filter(rateObj => rateObj.code === "BCC")[0].rate;
+  const BCH_TO_BTC_RATE = rates.filter(rateObj => rateObj.code === "BCH")[0].rate;
 
-  return (chain === "bcc") ? (amount * BCH_TO_BTC_RATE) : amount;
+  return (chain === "bch") ? (amount * BCH_TO_BTC_RATE) : amount;
 };
 
 const getValueInCurrency = (chain, currency, amount, rates) => {
@@ -22,7 +22,7 @@ const getValueInCurrency = (chain, currency, amount, rates) => {
   })[0];
 
   // Since we only have the BCH_TO_BTC rate, we need to reverse it if we want BTC_TO_BCH
-  const toMultiplier = (toRateObj.code === "BCC") ? (1 / toRateObj.rate) : toRateObj.rate;
+  const toMultiplier = (toRateObj.code === "BCH") ? (1 / toRateObj.rate) : toRateObj.rate;
 
   return valueInBTC * toMultiplier;
 };
