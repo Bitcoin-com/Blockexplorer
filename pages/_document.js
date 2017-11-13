@@ -23,7 +23,7 @@ export default class NextDocument extends Document {
               var BitcoinMenuLang = "en";
             `
           }} />
-          <script src="https://menu.bitcoin.com/universal-menu.js"></script>
+          <script src="https://menu.bitcoin.com/universal-menu.js" integrity="sha384-T6ay8XBeY5uaRA4oPYVeRKjxBvXsHqzCgNoeTbllXDCjcrq8sMSsVZ+cGQLaWV7w" crossorigin="anonymous"></script>
 
           <NextScript />
         </body>
