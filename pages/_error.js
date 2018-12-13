@@ -23,7 +23,7 @@ const redirectToChain = (chain, { pathname, query, asPath }) => {
 }
 
 const ErrorPage = ({ resource, error, chain, router }) => {
-  const oppositeChain = (chain === "btc") ? "bcc" : "btc";
+  const oppositeChain = (chain === "btc") ? "bch" : "btc";
 
   return (
     <Layout>

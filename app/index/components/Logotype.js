@@ -1,4 +1,4 @@
-import BccLogotypeIcon from '~/core/images/logos/bcc-logotype.svg';
+import BchLogotypeIcon from '~/core/images/logos/bch-logotype.svg';
 import BtcLogotypeIcon from '~/core/images/logos/btc-logotype.svg';
 
 import { getPrimaryColor } from '~/ui/colors';
@@ -6,7 +6,7 @@ import { getPrimaryColor } from '~/ui/colors';
 const getLogotype = (chain) => {
   return (chain == "btc")
     ? BtcLogotypeIcon
-    : BccLogotypeIcon;
+    : BchLogotypeIcon;
 }
 
 const Logotype = ({
@@ -32,8 +32,8 @@ const Logotype = ({
         .logo-container[data-chain="btc"] :global(svg g) {
           fill: ${getPrimaryColor("btc")};
         }
-        .logo-container[data-chain="bcc"] :global(svg g) {
-          fill: ${getPrimaryColor("bcc")};
+        .logo-container[data-chain="bch"] :global(svg g) {
+          fill: ${getPrimaryColor("bch")};
         }
       `}</style>
     </div>

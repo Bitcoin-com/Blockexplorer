@@ -4,7 +4,7 @@ import ClickOutside from 'react-click-outside';
 
 import SettingsIcon from '~/ui/images/settings.svg';
 import LogomarkIcon from '~/core/images/logos/logomark.svg';
-import BccLogotextIcon from '~/core/images/logos/bcc-logotext.svg';
+import BchLogotextIcon from '~/core/images/logos/bch-logotext.svg';
 import BtcLogotextIcon from '~/core/images/logos/btc-logotext.svg';
 
 import { getPrimaryColor, getHeaderTextColor } from '~/ui/colors';
@@ -57,7 +57,7 @@ class Header extends React.Component {
     const { chain } = this.props;
     const { showNav } = this.state;
 
-    const LogotextIcon = (chain == "btc") ? BtcLogotextIcon : BccLogotextIcon;
+    const LogotextIcon = (chain == "btc") ? BtcLogotextIcon : BchLogotextIcon;
 
     return (
       <header>
@@ -135,12 +135,12 @@ class Header extends React.Component {
             stroke: none;
             fill: ${getPrimaryColor("btc")};
           }
-          .logo-container :global(.logomark[data-chain="bcc"] path) {
-            stroke: ${getPrimaryColor("bcc")};
+          .logo-container :global(.logomark[data-chain="bch"] path) {
+            stroke: ${getPrimaryColor("bch")};
           }
-          .logo-container :global(.logomark[data-chain="bcc"] path:last-child) {
+          .logo-container :global(.logomark[data-chain="bch"] path:last-child) {
             stroke: none;
-            fill: ${getPrimaryColor("bcc")};
+            fill: ${getPrimaryColor("bch")};
           }
           .logo-container :global(.logotext) {
             margin-left: 20px;
@@ -149,8 +149,8 @@ class Header extends React.Component {
           .logo-container :global(.logotext[data-chain="btc"] path) {
             fill: ${getPrimaryColor("btc")};
           }
-          .logo-container :global(.logotext[data-chain="bcc"] path) {
-            fill: ${getPrimaryColor("bcc")};
+          .logo-container :global(.logotext[data-chain="bch"] path) {
+            fill: ${getPrimaryColor("bch")};
           }
 
           .settings-btn {

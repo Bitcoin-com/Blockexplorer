@@ -13,8 +13,8 @@ const DEFAULT_LANGUAGE = 'en';
 
 const INITIAL_STATE = {
   preferences: {
-    chain: "bcc",
-    currency: "bcc",
+    chain: "bch",
+    currency: "bch",
   },
   i18n: {
     locale: DEFAULT_LANGUAGE,

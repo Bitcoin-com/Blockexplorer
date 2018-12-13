@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { connect } from 'react-redux';
 
 const getReverseChain = (chain) => {
-  return (chain === "btc") ? "bcc" : "btc";
+  return (chain === "btc") ? "bch" : "btc";
 }
 
 const TxLink = ({ chain, reverse, children, style }) => {

@@ -88,7 +88,7 @@ const Transaction = ({ tx, locale }) => {
 
         <AmountBadge
           amount={valueOut}
-          currency="BCC"
+          currency="BCH"
           style={{
             position: 'absolute',
             bottom: -17,

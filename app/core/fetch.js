@@ -1,13 +1,13 @@
 import fetch from 'isomorphic-fetch';
 
 const BTC_API_URL = process.env.BTC_API_URL;
-const BCC_API_URL = process.env.BCC_API_URL;
+const BCH_API_URL = process.env.BCH_API_URL;
 
 const isNode = (typeof window === 'undefined');
 
-const getDomain = (chain = 'bcc') => {
+const getDomain = (chain = 'bch') => {
   if (isNode) {
-    return (chain === "btc") ? BTC_API_URL : BCC_API_URL;
+    return (chain === "btc") ? BTC_API_URL : BCH_API_URL;
   } else {
     return `/${chain}/api`;
   }

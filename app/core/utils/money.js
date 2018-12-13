@@ -1,3 +1,3 @@
 export const isCurrencyCrypto = (currency) => (
-  (currency === "bcc" || currency === "btc")
+  (currency === "bch" || currency === "btc")
 )
